@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8148b6;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -10px;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+  }
+  
+  .login-button {
+    background-color: #8148b6;
+    width: 80px;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #e22b2b;
+  }
+  
+  .profile-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .profile-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+input[type="password"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 50%;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #8148b6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e22b2b;
+}
+
+#myimg{
+    width: 100%;
+    height: 100%;
+
+     }
+#POST{
+ border: 2px solid black;
+ width: 300px;
+ display: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

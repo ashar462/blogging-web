@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./profile.css">
+  <link rel="stylesheet" href="./profile.css">
+  <title>User Profile</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-title">Personal Blogging App</div>
+   
+    <a href="login.html"><button class="login-button">Logout</button></a>
+  </nav>
+
+  <div class="profile-container">
+    <h1>User Profile</h1>
+
+    <div class="profile-picture-container">
+        <img id="profilePicture" alt="Profile Picture" src="./styling/default-profile.jpg" class="default-profile-picture">
+      </div>
+
+<label for="profilePicture">Profile Picture:</label>
+<input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+<button type="button" id="changePictureBtn">Change Profile Picture</button>
+
+
+    <div class="profile-forms">
+      <form id="editNameForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <button type="button" id="editNameBtn">Update Name</button>
+      </form>
+
+      <form id="updatePasswordForm">
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+        <button type="button" id="updatePasswordBtn">Update Password</button>
+      </form>
+
+     
+    </div>
+  </div>
+
+
+  <script type="module" src="./profile.js"></script>
+</body>
+</html>
